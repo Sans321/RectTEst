@@ -21,7 +21,7 @@ const Modale:React.FC<IAvtivateMod>=({open, setOpen, children})=>(
 function Modal() {
   const[open,setOpen]=React.useState(false);
   return (
-    <div className="App">
+    <div className="Modal">
       <button onClick={()=>setOpen(true)} className="open-modal-btn">✨ Открыть окно</button>
       <Modale open={open} setOpen={setOpen}>
         <img src="https:media2.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" />

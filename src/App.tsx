@@ -5,6 +5,10 @@ import Modal from "./page/Modal"
 import Home from "./page/Home" 
 import List from "./page/List"
 import Curencyconvertor from "./page/Curency-convertor"
+import PasswordGen from "./page/Password-generator"
+import Todo from "./page/Todo"
+import PaperRock from "./page/Paper-rock"
+
 
 export function App() {
   return (
@@ -15,6 +19,10 @@ export function App() {
       <Route path="/quiz" element={<Quiz />} />
       <Route path="/user" element={<List/>}/>
       <Route path="/curencyconvertor" element={<Curencyconvertor/>}/>
+      <Route path="/passwordgenerator" element={<PasswordGen/>}/>
+      <Route path="/todo" element={<Todo/>}/>
+      <Route path="/paperrock" element={<PaperRock/>}/>
+
     </Routes>
   )
 }

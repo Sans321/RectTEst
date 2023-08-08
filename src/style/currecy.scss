@@ -11,6 +11,7 @@ body {
 }
 
 .App {
+  transform: translate(70%, 100%); 
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 30px;
